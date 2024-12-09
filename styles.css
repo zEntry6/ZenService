@@ -1,0 +1,108 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #235ab9;
+    color: white;
+}
+
+header {
+    background-color: rgb(82, 113, 255);
+    padding: 10px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home-section {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* styles.css (tambahan untuk Product) */
+.product-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #235ab9;
+    color: white;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background: #5271ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* styles.css (Tambahan untuk interaksi gambar yang klik-able) */
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s, opacity 0.3s;
+    cursor: pointer;
+}
+
+.product-card img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: white;
+}
+
+/* styles.css (tambahan untuk Contact Us) */
+.contact-section {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #235ab9;
+    color: white;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.contact-info a {
+    color: #add8e6;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
